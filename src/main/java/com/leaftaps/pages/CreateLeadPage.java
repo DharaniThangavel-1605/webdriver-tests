@@ -12,7 +12,7 @@ public class CreateLeadPage extends ProjectHooks{
 	}
 	public CreateLeadPage enterFirstName(String data) {
 		clearAndType(locateElement(Locators.ID, "createLeadForm_firstName"), data);
-		reportStep(data+" first name is entered successfully","pass");
+		reportStep(data+" first name is entered successfully yes","pass");
 		return this;
 	}
 	
